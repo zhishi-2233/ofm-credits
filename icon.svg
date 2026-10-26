@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="OFM Credits Bubble">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4d6bfe"/>
+      <stop offset="1" stop-color="#7bb8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)"/>
+  <path d="M14 22c0-3 2-5 5-5h26c3 0 5 2 5 5v14c0 3-2 5-5 5H30l-8 8v-8h-3c-3 0-5-2-5-5z" fill="#fff" opacity="0.95"/>
+  <circle cx="25" cy="29" r="3" fill="#4d6bfe"/>
+  <circle cx="32" cy="29" r="3" fill="#4d6bfe"/>
+  <circle cx="39" cy="29" r="3" fill="#4d6bfe"/>
+</svg>
