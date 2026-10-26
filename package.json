@@ -1,0 +1,50 @@
+{
+  "name": "ofm-credits",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Shows the credits of the Our Free Model channel behind this session's model, in a strip above the composer.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "icon": "./icon.svg",
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "our-free-model",
+    "credits"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhishi-2233/ofm-credits.git"
+  },
+  "homepage": "https://github.com/zhishi-2233/ofm-credits#readme",
+  "bugs": {
+    "url": "https://github.com/zhishi-2233/ofm-credits/issues"
+  },
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}
