@@ -1,0 +1,5 @@
+# Bundle patch: one Host row. The plugin owns the whole path — it reads the
+# channel's credits and its Client half renders them above the composer.
+- insert:
+    - id: ofm-credits
+      name: 'ofm-credits'
