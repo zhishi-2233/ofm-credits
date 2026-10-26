@@ -35,6 +35,14 @@
     "url": "https://github.com/zhishi-2233/ofm-credits/issues"
   },
   "license": "MIT",
+  "peerDependencies": {
+    "dsh-our-free-model": ">=2.5.0"
+  },
+  "peerDependenciesMeta": {
+    "dsh-our-free-model": {
+      "optional": true
+    }
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
