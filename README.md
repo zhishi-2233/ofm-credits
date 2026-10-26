@@ -4,6 +4,15 @@
 
 > **前置依赖**：需要先安装 [`dsh-our-free-model`](https://www.npmjs.com/package/dsh-our-free-model)（提供渠道账号与积分接口）。没有它时插件不会报错，只是始终显示「积分 —」。
 
+## 适配版本
+
+| 组件 | 版本 |
+|---|---|
+| `dsh-our-free-model` | **2.5.7**（已实测；2.5.x 系列同为同一套接口） |
+| DeepSeek Harness | **0.2.1-rc.3**（已实测；需 0.2.1 及以上，用到了 `conversation.session.header.actions` 槽位） |
+
+这是开发时实际跑通的组合。OFM 的接口不是公开 API，所以它的**大版本变化**（尤其是 `accountPool` 或 `credits.balances` 改名）可能导致读不到值；届时会回退到内置渠道表并在日志里记 `channel discovery failed`，不会崩溃。
+
 ## 安装
 
 ```sh
