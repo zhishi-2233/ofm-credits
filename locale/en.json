@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "OFM Credits",
+    "description": "Resolves the Our Free Model channel behind this session's model, reads its credits, and shows them in a strip above the composer with a refresh button."
+  }
+}
