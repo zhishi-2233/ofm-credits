@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "OFM 积分",
+    "description": "识别当前会话所用 Our Free Model 模型所属渠道，读取该渠道积分并显示在输入框上方，附手动刷新按钮。"
+  }
+}
